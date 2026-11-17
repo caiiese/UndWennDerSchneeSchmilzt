@@ -112,13 +112,13 @@
 <script>
 /* ---------- settings ---------- */
 const AUDIO_SRC   = "audio.mp3"; // put your audio file next to this file; change the name here. Use "" for no audio.
-const PAGE_SECONDS = 1;          // how long each page stays
+const PAGE_SECONDS = 2;          // how long each page stays
 const FIT          = "contain";  // "contain" = whole page visible, "cover" = zoom to fill and crop edges
 const BACKGROUND   = "#fff";     // color behind the pages (matters for "contain")
-const POSITION     = "left top"; // where the page sits on screen: "left top", "center", ...
+const POSITION     = "center"; // where the page sits on screen: "left top", "center", ...
 const TOP_SPACE    = "40px";     // empty space above the page, e.g. "0px", "20px", "5vh"
-const LOOP_AUDIO   = false;      // true = audio repeats, false = plays once
-const CURSOR_HIDE_SECONDS = 2;   // in fullscreen, hide the mouse this long after it stops moving
+const LOOP_AUDIO   = true;      // true = audio repeats, false = plays once
+const CURSOR_HIDE_SECONDS = 1;   // in fullscreen, hide the mouse this long after it stops moving
 
 /* ---------- setup ---------- */
 const stage = document.getElementById("stage");
